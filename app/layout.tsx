@@ -31,6 +31,7 @@ export const metadata: Metadata = {
     "apple-mobile-web-app-status-bar-style": "black-translucent",
     "fc:miniapp": JSON.stringify(FC_EMBED),
     "fc:frame": JSON.stringify(FC_EMBED),
+    "base:app_id": "697e1101c6a03f3fe39cb5e4",
   },
   openGraph: {
     title: "Arkanoid - Brick Breaker",

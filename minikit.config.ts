@@ -9,7 +9,7 @@ export const minikitConfig = {
   miniapp: {
     version: "1",
     name: "Arkanoid - Brick Breaker",
-    subtitle: "Break bricks. Collect power-ups.",
+    subtitle: "Break bricks. Get power-ups.",
     description:
       "Classic arcade block breaker with 33 levels, power-ups, and futuristic neon visuals. Challenge your friends on the leaderboard!",
     screenshotUrls: [

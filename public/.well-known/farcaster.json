@@ -14,7 +14,7 @@
     "splashImageUrl": "https://arkanoid-jade.vercel.app/hero-image.png",
     "splashBackgroundColor": "#0a0a0f",
     "webhookUrl": "https://arkanoid-jade.vercel.app/api/webhook",
-    "subtitle": "Break bricks. Collect power-ups.",
+    "subtitle": "Break bricks. Get power-ups.",
     "description": "Classic arcade block breaker with 33 levels, power-ups, and futuristic neon visuals. Challenge your friends on the leaderboard!",
     "screenshotUrls": [
       "https://arkanoid-jade.vercel.app/screenshot-1.png",

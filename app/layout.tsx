@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || "https://arkanoid.vercel.app";
+const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || "https://arkanoid-jade.vercel.app";
 
 const FC_EMBED = {
   version: "1",

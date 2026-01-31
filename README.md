@@ -24,7 +24,7 @@ Set `NEXT_PUBLIC_APP_URL` to your production URL before deploying.
 
 1. Push to GitHub
 2. Import to Vercel
-3. Set `NEXT_PUBLIC_APP_URL` = your Vercel URL
+3. Set `NEXT_PUBLIC_APP_URL` = https://arkanoid-jade.vercel.app (or your Vercel URL)
 4. Deploy
 
 ## Farcaster/Base Setup

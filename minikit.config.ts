@@ -1,4 +1,4 @@
-const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || "https://arkanoid.vercel.app";
+const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || "https://arkanoid-jade.vercel.app";
 
 export const minikitConfig = {
   accountAssociation: {

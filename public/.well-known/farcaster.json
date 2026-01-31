@@ -7,26 +7,26 @@
   "miniapp": {
     "version": "1",
     "name": "Arkanoid - Brick Breaker",
-    "homeUrl": "https://arkanoid.vercel.app/",
-    "iconUrl": "https://arkanoid.vercel.app/icon.png",
-    "imageUrl": "https://arkanoid.vercel.app/hero-image.png",
+    "homeUrl": "https://arkanoid-jade.vercel.app/",
+    "iconUrl": "https://arkanoid-jade.vercel.app/icon.png",
+    "imageUrl": "https://arkanoid-jade.vercel.app/hero-image.png",
     "buttonTitle": "Play Arkanoid",
-    "splashImageUrl": "https://arkanoid.vercel.app/hero-image.png",
+    "splashImageUrl": "https://arkanoid-jade.vercel.app/hero-image.png",
     "splashBackgroundColor": "#0a0a0f",
-    "webhookUrl": "https://arkanoid.vercel.app/api/webhook",
+    "webhookUrl": "https://arkanoid-jade.vercel.app/api/webhook",
     "subtitle": "Break bricks. Collect power-ups.",
     "description": "Classic arcade block breaker with 33 levels, power-ups, and futuristic neon visuals. Challenge your friends on the leaderboard!",
     "screenshotUrls": [
-      "https://arkanoid.vercel.app/screenshot-1.png",
-      "https://arkanoid.vercel.app/screenshot-2.png"
+      "https://arkanoid-jade.vercel.app/screenshot-1.png",
+      "https://arkanoid-jade.vercel.app/screenshot-2.png"
     ],
     "primaryCategory": "games",
     "tags": ["arcade", "action", "retro", "competitive"],
-    "heroImageUrl": "https://arkanoid.vercel.app/hero-image.png",
+    "heroImageUrl": "https://arkanoid-jade.vercel.app/hero-image.png",
     "tagline": "The ultimate brick breaker",
     "ogTitle": "Arkanoid - Brick Breaker",
     "ogDescription": "33 levels of neon-powered block breaking action",
-    "ogImageUrl": "https://arkanoid.vercel.app/hero-image.png",
+    "ogImageUrl": "https://arkanoid-jade.vercel.app/hero-image.png",
     "noindex": false,
     "requiredChains": ["eip155:8453"]
   }

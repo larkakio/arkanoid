@@ -1,22 +1,8 @@
 import type { Metadata } from "next";
+import { Providers } from "./providers";
 import "./globals.css";
 
 const ROOT_URL = process.env.NEXT_PUBLIC_APP_URL || "https://arkanoid-jade.vercel.app";
-
-const FC_EMBED = {
-  version: "1",
-  imageUrl: `${ROOT_URL}/hero-image.png`,
-  button: {
-    title: "Play Arkanoid",
-    action: {
-      type: "launch_frame",
-      name: "Arkanoid - Brick Breaker",
-      url: `${ROOT_URL}/`,
-      splashImageUrl: `${ROOT_URL}/hero-image.png`,
-      splashBackgroundColor: "#0a0a0f",
-    },
-  },
-};
 
 export const metadata: Metadata = {
   title: "Arkanoid - Brick Breaker",
@@ -29,8 +15,6 @@ export const metadata: Metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "fc:miniapp": JSON.stringify(FC_EMBED),
-    "fc:frame": JSON.stringify(FC_EMBED),
     "base:app_id": "697e1101c6a03f3fe39cb5e4",
   },
   openGraph: {
@@ -54,7 +38,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="min-h-screen bg-[#0a0a0f] antialiased">{children}</body>
+      <body className="min-h-screen bg-[#0a0a0f] antialiased">
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

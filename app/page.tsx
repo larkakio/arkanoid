@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { FarcasterReady } from "@/components/FarcasterReady";
 import { GameCanvas } from "@/components/game/GameCanvas";
 import { GameHUD } from "@/components/game/GameHUD";
 import { useGameStore } from "@/store/gameStore";
@@ -29,7 +28,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#0a0a0f] flex flex-col items-center justify-center p-4 pb-8">
-      <FarcasterReady />
       <AnimatePresence mode="wait">
         {!isPlaying ? (
           <motion.div
